@@ -1,0 +1,164 @@
+body {
+
+	background-image: url(../img/fundo.png);
+	background-color: rgba(255,255,255,0.7);
+	background-size: 100%;
+	background-blend-mode: lighten;
+}
+
+.container {
+	background-color: #f1f1f1;
+	width: 940px;
+	padding: 0;
+	margin: auto;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 20px 0px rgba(50, 50, 50, 1);
+}
+
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color:
+	max-width: 100%;
+	height: auto;
+}
+
+#img-cabecalho {
+	max-width: 100%;
+	height: auto;
+}
+
+.conteudo {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 940px;
+	height: 100%;
+}
+
+.caixa {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 450px;
+	margin: 10px; 
+	background-color: #f1f1f1;;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #193248;
+	text-align: center;
+	line-height: 1.3em;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #193248;
+	text-align: right;
+	line-height: 40px;
+}
+
+.logo-pais {
+	width: 180px;
+	height: 60px;
+	margin-bottom: 5px;
+}
+
+table {
+	margin-top: 5px;
+	width: 50%;
+}
+
+td {
+	font-family: 'Roboto Mono', monospace;
+	color: #193248;
+}
+
+.primeiro-campo {
+	text-align: right;
+}
+
+.segundo-campo {
+	padding-left: 10px;
+}
+
+.portais {
+	width: 295px;
+	margin-top: 20px;
+}
+
+.float-left {
+	float: left;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.margin-left-10 {
+	margin-left: 10px;
+}
+
+/** AREA DE VÍDEOS **/
+
+.container-videos {
+	display: flex;
+	justify-content: center;
+}
+
+.caixa-tutorial {
+	width: 940px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 2em;
+	color: #193248;
+}
+
+.row {
+	display: flex;
+	width: 940px;
+	justify-content: center;
+	flex-wrap: wrap;
+    margin-bottom: 80px
+}
+
+.video {
+	width: 400px;
+	height: 350px;
+    margin: 10px 10px 10px 10px;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+}
+
+.video:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    box-shadow: 10px 10px 5px #888888;
+    z-index: 1;
+}
+
